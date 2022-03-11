@@ -1,0 +1,8 @@
+[console_scripts]
+ansitron = ansitron.__init__:ansitron
+ansitron-builder = ansitron.bin.ansitron_builder:buildactions
+ansitron-pbook-process = ansitron.bin.ansitron_actions:process_playbook
+ansitron-pbook-retreive = ansitron.bin.ansitron_actions:retreive_playbook
+ansitron-pbook-store = ansitron.bin.ansitron_actions:store_playbook
+ansitronlicchk = ansitron.bin.ansitronliccheck:main
+

@@ -1,0 +1,2 @@
+include LICENSE.md README.md setup.cfg
+exclude setup.py

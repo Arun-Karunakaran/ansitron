@@ -1,0 +1,217 @@
+running sdist
+running egg_info
+writing ansitron_core.egg-info/PKG-INFO
+writing dependency_links to ansitron_core.egg-info/dependency_links.txt
+writing entry points to ansitron_core.egg-info/entry_points.txt
+writing requirements to ansitron_core.egg-info/requires.txt
+writing top-level names to ansitron_core.egg-info/top_level.txt
+reading manifest file 'ansitron_core.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'ansitron_core.egg-info/SOURCES.txt'
+running check
+creating ansitron-core-18.60
+creating ansitron-core-18.60/ansitron
+creating ansitron-core-18.60/ansitron/bin
+creating ansitron-core-18.60/ansitron/config
+creating ansitron-core-18.60/ansitron/lib
+creating ansitron-core-18.60/ansitron/test
+creating ansitron-core-18.60/ansitron_core.egg-info
+copying files to ansitron-core-18.60...
+copying LICENSE.md -> ansitron-core-18.60
+copying MANIFEST.in -> ansitron-core-18.60
+copying README.md -> ansitron-core-18.60
+copying setup.cfg -> ansitron-core-18.60
+copying ansitron/__init__.py -> ansitron-core-18.60/ansitron
+copying ansitron/__main__.py -> ansitron-core-18.60/ansitron
+copying ansitron/dumper.py -> ansitron-core-18.60/ansitron
+copying ansitron/loader.py -> ansitron-core-18.60/ansitron
+copying ansitron/bin/__init__.c -> ansitron-core-18.60/ansitron/bin
+copying ansitron/bin/ansitron_actions.c -> ansitron-core-18.60/ansitron/bin
+copying ansitron/bin/ansitron_builder.c -> ansitron-core-18.60/ansitron/bin
+copying ansitron/bin/ansitron_engine.c -> ansitron-core-18.60/ansitron/bin
+copying ansitron/bin/ansitron_server.c -> ansitron-core-18.60/ansitron/bin
+copying ansitron/bin/ansitronliccheck.c -> ansitron-core-18.60/ansitron/bin
+copying ansitron/config/ansitron.ini -> ansitron-core-18.60/ansitron/config
+copying ansitron/config/varstore.dat -> ansitron-core-18.60/ansitron/config
+copying ansitron/lib/__config__.py -> ansitron-core-18.60/ansitron/lib
+copying ansitron/lib/__init__.py -> ansitron-core-18.60/ansitron/lib
+copying ansitron/lib/config.py -> ansitron-core-18.60/ansitron/lib
+copying ansitron/lib/db.py -> ansitron-core-18.60/ansitron/lib
+copying ansitron/lib/handlers.py -> ansitron-core-18.60/ansitron/lib
+copying ansitron/lib/main.py -> ansitron-core-18.60/ansitron/lib
+copying ansitron/lib/sqlmethods.py -> ansitron-core-18.60/ansitron/lib
+copying ansitron/lib/utilities.py -> ansitron-core-18.60/ansitron/lib
+copying ansitron/test/__init__.py -> ansitron-core-18.60/ansitron/test
+copying ansitron/test/conftest.py -> ansitron-core-18.60/ansitron/test
+copying ansitron/test/test_ModuleDumper.py -> ansitron-core-18.60/ansitron/test
+copying ansitron/test/test_ModuleLoader.py -> ansitron-core-18.60/ansitron/test
+copying ansitron/test/test_Pkg_init.py -> ansitron-core-18.60/ansitron/test
+copying ansitron/test/test_sample.py -> ansitron-core-18.60/ansitron/test
+copying ansitron/test/test_zteardown.py -> ansitron-core-18.60/ansitron/test
+copying ansitron_core.egg-info/PKG-INFO -> ansitron-core-18.60/ansitron_core.egg-info
+copying ansitron_core.egg-info/SOURCES.txt -> ansitron-core-18.60/ansitron_core.egg-info
+copying ansitron_core.egg-info/dependency_links.txt -> ansitron-core-18.60/ansitron_core.egg-info
+copying ansitron_core.egg-info/entry_points.txt -> ansitron-core-18.60/ansitron_core.egg-info
+copying ansitron_core.egg-info/not-zip-safe -> ansitron-core-18.60/ansitron_core.egg-info
+copying ansitron_core.egg-info/requires.txt -> ansitron-core-18.60/ansitron_core.egg-info
+copying ansitron_core.egg-info/top_level.txt -> ansitron-core-18.60/ansitron_core.egg-info
+Writing ansitron-core-18.60/setup.cfg
+Creating tar archive
+removing 'ansitron-core-18.60' (and everything under it)
+running bdist_wheel
+running build
+running build_py
+copying ansitron/config/varstore.dat -> build/lib.macosx-10.15-x86_64-3.8/ansitron/config
+running build_ext
+installing to build/bdist.macosx-10.15-x86_64/wheel
+running install
+running install_lib
+creating build/bdist.macosx-10.15-x86_64/wheel
+creating build/bdist.macosx-10.15-x86_64/wheel/ansitron
+creating build/bdist.macosx-10.15-x86_64/wheel/ansitron/test
+copying build/lib.macosx-10.15-x86_64-3.8/ansitron/test/conftest.py -> build/bdist.macosx-10.15-x86_64/wheel/ansitron/test
+copying build/lib.macosx-10.15-x86_64-3.8/ansitron/test/test_ModuleLoader.py -> build/bdist.macosx-10.15-x86_64/wheel/ansitron/test
+copying build/lib.macosx-10.15-x86_64-3.8/ansitron/test/test_sample.py -> build/bdist.macosx-10.15-x86_64/wheel/ansitron/test
+copying build/lib.macosx-10.15-x86_64-3.8/ansitron/test/__init__.py -> build/bdist.macosx-10.15-x86_64/wheel/ansitron/test
+copying build/lib.macosx-10.15-x86_64-3.8/ansitron/test/test_ModuleDumper.py -> build/bdist.macosx-10.15-x86_64/wheel/ansitron/test
+copying build/lib.macosx-10.15-x86_64-3.8/ansitron/test/test_zteardown.py -> build/bdist.macosx-10.15-x86_64/wheel/ansitron/test
+copying build/lib.macosx-10.15-x86_64-3.8/ansitron/test/test_Pkg_init.py -> build/bdist.macosx-10.15-x86_64/wheel/ansitron/test
+creating build/bdist.macosx-10.15-x86_64/wheel/ansitron/bin
+copying build/lib.macosx-10.15-x86_64-3.8/ansitron/bin/__init__.cpython-38-darwin.so -> build/bdist.macosx-10.15-x86_64/wheel/ansitron/bin
+copying build/lib.macosx-10.15-x86_64-3.8/ansitron/bin/ansitron_actions.cpython-38-darwin.so -> build/bdist.macosx-10.15-x86_64/wheel/ansitron/bin
+copying build/lib.macosx-10.15-x86_64-3.8/ansitron/bin/ansitron_server.cpython-38-darwin.so -> build/bdist.macosx-10.15-x86_64/wheel/ansitron/bin
+copying build/lib.macosx-10.15-x86_64-3.8/ansitron/bin/ansitron_engine.cpython-38-darwin.so -> build/bdist.macosx-10.15-x86_64/wheel/ansitron/bin
+copying build/lib.macosx-10.15-x86_64-3.8/ansitron/bin/ansitronliccheck.cpython-38-darwin.so -> build/bdist.macosx-10.15-x86_64/wheel/ansitron/bin
+copying build/lib.macosx-10.15-x86_64-3.8/ansitron/bin/ansitron_builder.cpython-38-darwin.so -> build/bdist.macosx-10.15-x86_64/wheel/ansitron/bin
+creating build/bdist.macosx-10.15-x86_64/wheel/ansitron/config
+copying build/lib.macosx-10.15-x86_64-3.8/ansitron/config/varstore.dat -> build/bdist.macosx-10.15-x86_64/wheel/ansitron/config
+copying build/lib.macosx-10.15-x86_64-3.8/ansitron/config/ansitron.ini -> build/bdist.macosx-10.15-x86_64/wheel/ansitron/config
+copying build/lib.macosx-10.15-x86_64-3.8/ansitron/__init__.py -> build/bdist.macosx-10.15-x86_64/wheel/ansitron
+copying build/lib.macosx-10.15-x86_64-3.8/ansitron/dumper.py -> build/bdist.macosx-10.15-x86_64/wheel/ansitron
+copying build/lib.macosx-10.15-x86_64-3.8/ansitron/loader.py -> build/bdist.macosx-10.15-x86_64/wheel/ansitron
+creating build/bdist.macosx-10.15-x86_64/wheel/ansitron/lib
+copying build/lib.macosx-10.15-x86_64-3.8/ansitron/lib/db.py -> build/bdist.macosx-10.15-x86_64/wheel/ansitron/lib
+copying build/lib.macosx-10.15-x86_64-3.8/ansitron/lib/config.py -> build/bdist.macosx-10.15-x86_64/wheel/ansitron/lib
+copying build/lib.macosx-10.15-x86_64-3.8/ansitron/lib/handlers.py -> build/bdist.macosx-10.15-x86_64/wheel/ansitron/lib
+copying build/lib.macosx-10.15-x86_64-3.8/ansitron/lib/__init__.py -> build/bdist.macosx-10.15-x86_64/wheel/ansitron/lib
+copying build/lib.macosx-10.15-x86_64-3.8/ansitron/lib/__config__.py -> build/bdist.macosx-10.15-x86_64/wheel/ansitron/lib
+copying build/lib.macosx-10.15-x86_64-3.8/ansitron/lib/sqlmethods.py -> build/bdist.macosx-10.15-x86_64/wheel/ansitron/lib
+copying build/lib.macosx-10.15-x86_64-3.8/ansitron/lib/utilities.py -> build/bdist.macosx-10.15-x86_64/wheel/ansitron/lib
+copying build/lib.macosx-10.15-x86_64-3.8/ansitron/lib/main.py -> build/bdist.macosx-10.15-x86_64/wheel/ansitron/lib
+copying build/lib.macosx-10.15-x86_64-3.8/ansitron/__main__.py -> build/bdist.macosx-10.15-x86_64/wheel/ansitron
+running install_egg_info
+Copying ansitron_core.egg-info to build/bdist.macosx-10.15-x86_64/wheel/ansitron_core-18.60-py3.8.egg-info
+running install_scripts
+adding license file "LICENSE.md" (matched pattern "LICENSE.md")
+creating build/bdist.macosx-10.15-x86_64/wheel/ansitron_core-18.60.dist-info/WHEEL
+creating 'dist/ansitron_core-18.60-cp38-cp38-macosx_10_15_x86_64.whl' and adding 'build/bdist.macosx-10.15-x86_64/wheel' to it
+adding 'ansitron/__init__.py'
+adding 'ansitron/__main__.py'
+adding 'ansitron/dumper.py'
+adding 'ansitron/loader.py'
+adding 'ansitron/bin/__init__.cpython-38-darwin.so'
+adding 'ansitron/bin/ansitron_actions.cpython-38-darwin.so'
+adding 'ansitron/bin/ansitron_builder.cpython-38-darwin.so'
+adding 'ansitron/bin/ansitron_engine.cpython-38-darwin.so'
+adding 'ansitron/bin/ansitron_server.cpython-38-darwin.so'
+adding 'ansitron/bin/ansitronliccheck.cpython-38-darwin.so'
+adding 'ansitron/config/ansitron.ini'
+adding 'ansitron/config/varstore.dat'
+adding 'ansitron/lib/__config__.py'
+adding 'ansitron/lib/__init__.py'
+adding 'ansitron/lib/config.py'
+adding 'ansitron/lib/db.py'
+adding 'ansitron/lib/handlers.py'
+adding 'ansitron/lib/main.py'
+adding 'ansitron/lib/sqlmethods.py'
+adding 'ansitron/lib/utilities.py'
+adding 'ansitron/test/__init__.py'
+adding 'ansitron/test/conftest.py'
+adding 'ansitron/test/test_ModuleDumper.py'
+adding 'ansitron/test/test_ModuleLoader.py'
+adding 'ansitron/test/test_Pkg_init.py'
+adding 'ansitron/test/test_sample.py'
+adding 'ansitron/test/test_zteardown.py'
+adding 'ansitron_core-18.60.dist-info/LICENSE.md'
+adding 'ansitron_core-18.60.dist-info/METADATA'
+adding 'ansitron_core-18.60.dist-info/WHEEL'
+adding 'ansitron_core-18.60.dist-info/entry_points.txt'
+adding 'ansitron_core-18.60.dist-info/top_level.txt'
+adding 'ansitron_core-18.60.dist-info/RECORD'
+removing build/bdist.macosx-10.15-x86_64/wheel
+5627d1ae99d0639ad84a43621144de5ad80efbb10a6ee37112f1a331c88c3eef
+e4550c71166a95fea33988c6903830f7ea382aa7a100fcf49104445b0e5f312d
+6f3d13cc2d83f73f96e9e4190e949c4e60a7b649ac7a64424cf358b52e8c33da
+05444aa89680943b77ce00e8eb44d42a3a974fafa0c77facc3e4d7336d6130fc
+0f4fbefaf9ff35433a73711e48f1f96420d241a696caff24850e9c74ce96a841
+ffbcbccd25db8fcc079e0d804f2c2344fe7ef5de5ab937453291105fb7852424
+95c69ac57cbf5f9a7c1ed768e732a2de9d3120c8e6dbe1ab351a924a982f4973
+19a377843c108a8fdf3c1502b296ba92c731d0c95747695d29d0d8b46901f02e
+600c803bdf19aea6e8c77c3de404a4dd95c975aabdd5396bc6920764f98d5524
+31bcb85d16b705cb4f19489fa95cc156cff473e08fd8e0fa608ce8e817bf4f7e
+45bd02a7961c10473beb3a7627d169e2e9e5bc7ba9fc1ed667b557e6b65e2d78
+15bef0a351a6d53d3de0a3bfcb0feff06f0eca303d604c6cb9daffd4b2962dfa
+3b2b119d563d0e3ae08458d66471b0d93017deda2dc3bda496597ac20e52aaba
+b28c18c7065eb4f938b627156a5609cf4df4452a0f600b87552439079e2f9f65
+b742b631e1faa9a3841589cddf18f22877b75280a5f45d7eb0a3a5655b0a94f6
+9af69a1b6e4c9cda31f327be025c21a6e5f56c026fe433fbbdf84dc5f40fd9d3
+4dec922a5956912fdb51dff9eb869e142085c7a9e54b7030d42096c9ebc54073
+ccf3146537a0f254bcd8767836aa88712647bfc3457a288bc59cea5df6e0c493
+98986590fb5558274df4dfeb56d9d602517f672071d9eea098b0c30f2960edf6
+cf2096cbc6e9aa0c79095da7f332dd089071874ed4071c4567a97cf567747488
+6d20fa01ffbeef3e005e1f83a565affdef58a87203af8b74b5dd7deef8ad6f16
+37343b864cb83aae5a1f38a0a1239b07864ecb283d0e23ea46101fae8d396db3
+8fc765c9cb9af94cdefc6a152a44268d7707bc7d31de3bd4f22dbfd2ca7727fa
+4ba48e3a2553cc3e3c4fdd4ea501e6e9bdc59fe572f7d2c1f497d49045d16103
+f72e655ed92d2f96f15285bd90f2cabba40f38ee551469bcfc0856de4d70a2dd
+ad81f1c9e6dd738ea53246ccdbcb29a49888072693af49463fc5750d0e2fd0ec
+6605b8d3712b52510af414576a34e714bdda78ef99a5842fac6d6e7a23a96c77
+4bfadc8ede041b302e7f1af1ccd4f844311e8c2dbc62ef71ce30eab8f9df35ae
+2a6628dedc9e7fab3fc8b76ece370ef2b7621520746c5bb0967afc4f0c2e5189
+22fa4697656e294eabbcd0be0a6f27ae0e38901d9a178b6c9a7a5071ceef7f3b
+ab8ad1d14de3c9f96a915720fe7b1205dca0123bfe83ee2c56045ac319d1a53f
+82f81e6676949acc60303e77f995b38cc223cf480c278d1c2d433ba5da3560e2
+dae5088d50bd5a88f2b26a1938dc9a92f38698012ec3443df7cbfe8cdaf60d86
+29bf57ceef13ecba2c87f5556aba04139e50f8818da0011073657e12919fd16f
+bd08d9bdb248d4e6472f0872dcfd597bdbd26be601e2fc47cef66903e092d94a
+644f270b4ef0cd119e245e90fa71be9cbfa67a8d6609b7cdcc2cc81b6f4b2bce
+745791cb0ff06f5c9a1c9a3c640cabae8e29a3cdf03f23cb77f365ec616dfeb6
+0b8e1cbc9b90b4acd319a847bc1b513770b3d4c09fdf9637fd85cf37d8bfd7da
+76517fbf0d65668350c7870c0983191d1c51f4f0dee07e044006ee4dd2aa4b87
+0b06a59baa646de7653a0256b9c7f57501ede7f439f1d272d67469254e1c0d25
+e4ed76a6b494eb7a28b564b411d21e5b07b22a62f698b7316e20af617ad7842a
+7e45678268933bc71b362bfd3cb3bd8cfdee4c5f5791c73838f972ad6e118ff2
+dd85a33867f3ed704239521f91c7b41b9aee1c23dcdc9ecfd37846ba9787410c
+61199c3d5a42c71cc6d3b470cd1d284647408277b4ab531bb315ca6024afb923
+4e2e5acec3bd9fb9a949554a541217101ef8a5af03a6a8916cbf1756b08a77f8
+d458d12a118395405e9f1c3ae1910036cd49970a992356001fcb66066019c250
+9b3c1697b41b29e3319059cb389b62184b9a575adba87ab9813423af79c58b24
+35dd10340dc44eddab7bc9f23e679fd7d8b01aef474229477c3788f178676036
+e5d8b9091176728eae9d9cca70836f25c4c9d278b20eaee8327377619c921056
+e8c1ab8bb005bb99abc712dd6a513c3b5d6890af103adda0cb54ebad3d23e6d8
+a5e947dada7ce9f4bffbac3e855759a3d434da8b5c5354e13735ef055c4fbe0d
+3280c59ed5cdcb9ea28296011160df1788c00a356203eb4097d596fd4679a5e8
+9ff5393e7b1f0733255d15669c80feff19e11c654b31825187880748c9a6c988
+f0ac977dae35f592e0797de1ed9549fcc1bb30fceb5dd47d3775eff36a7102af
+2120a4c580bd44f1d24358d9e5850fa4faab3839904fa873c5690d43d13567a5
+53393882dbe873cda508f1b692825480d3a484f4101154cfede0a66dede2ecbd
+7bef7574a8ec27a598287a1d896a97466f62d58899a36092997a00a1d8345380
+636ea67acffa3607ca0ddebe109f3d3297191462dac1745f9cbccdf0573b482f
+a8be69b3c78ee58d43537b70943d167392de5bee5f6a734a1c7e95c4df1f07bd
+34460e9e6be218d3cd41c1442779438518e6744f417d3911d112d1a845c51d64
+e4f0d06cfeb8d562d64308b8ddf6fe1f241ca298abe1bd2605070d0c09ba375c
+71e05c77f9029c8e3a29ce9fa67cd8a4efc5a6a01267ca5c6576fb8afcd7087e
+3baf830bb4e507811548ca7fc298f95249da32a232cb1bc57591b6359e66ae4a
+fb9a18f6010a4a9ef8a9f49db6bdc340d2254fb10896f7212a96f0317cfd7f46
+
+Msg: This will Initiate/Alter to default .atronenv in path /home/ansitron/, 
+Do you wish to proceed y/N: (default y)
+Msg: successfully loaded dotatronenv with defaults
+
+Msg: This will Initiate/Alter to default config ansitron.ini in path /usr/ansitron/ansitron-core/ansitron/config/ with .atronenv as base, 
+Do you wish to proceed y/N: (default y)
+Msg: successfully loaded config with defaults
+42a9d147ea8fe134fc15617d4cbae6954597056c6394ac944058bbd3e7f3edca
+13c84932a21aad7c6b1d6f919201b4a20c47bb450a316da58a84ec7f8eb6aa60
+96c9cfeda2143d400cab87941f7d47f853041d41d2eebb7f58789d019c54f1bc
+d3c8ff90646e3817390946c7a4639bec7f87ce852c453b3db08dbedc40aeb2b4

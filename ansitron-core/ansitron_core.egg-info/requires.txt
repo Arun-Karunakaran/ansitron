@@ -1,0 +1,10 @@
+pyyaml
+ruamel.yaml
+python-dotenv
+wheel
+psycopg2
+pytest
+ndjson
+
+[testing]
+pytest

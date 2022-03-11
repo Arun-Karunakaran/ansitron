@@ -1,0 +1,25 @@
+version: '3.9'
+
+volumes:
+  ansitron:
+
+services:
+  core:
+    build:
+      context: ./ansitron-core
+      dockerfile: Dockerfile
+    image: ansitron-core
+    volumes:
+      - ansitron:/home/ansitron/.local/lib/python3.8/site-packages/ansitron
+
+  apps:
+    volumes_from:
+      - core:rw
+    build:
+      context: ./ansitron-apps
+      dockerfile: Dockerfile
+    image: ansitron-app
+    ports:
+      - "5000:5000"
+    depends_on:
+      - core
