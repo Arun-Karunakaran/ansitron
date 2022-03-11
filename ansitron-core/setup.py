@@ -52,7 +52,7 @@ def set_packageparams(filename=configvarstore):
         f.write("date=%s\n" % datetime.today().strftime("%d-%m-%Y"))
         f.write("email=akarunakaran.ind@gmail.com\n")
         f.write("status=Alpha-Release\n")
-        f.write("releaseinfo=%s\n" % "Initial Release for ansitron-core. Description: This product is used for managing the ansible projects more effectively.")
+        f.write("releaseinfo=%s\n" % "Initial Release for ansitron-core. Description: Dashboard for monitoring, tracking and operations on periodic basis for usages of devops tools.")
 
 def parsedatfile(*data):
 
