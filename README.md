@@ -5,8 +5,8 @@ Dashboard for monitoring, tracking and operations on periodic basis for usages o
 docker commands:
  1. copy the source code.
  2. run the docker-compose commands,
-    > &emsp; docker-compose build
-    > &emsp; docker-compose up
+    > &emsp; docker-compose build </br>
+    > &emsp; docker-compose up </br>
  3. > &emsp; docker cp $container_id:/usr/ansitron/ansitron-core/dist/ "$(pwd)". -->(will copy the distribution files to current directory)
     
 **Use the below command to copy the tarball and python wheel distributable file from the images:**</br>
