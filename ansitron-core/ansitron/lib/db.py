@@ -1,5 +1,5 @@
 
-#!/usr/bin/python2.7
+#!/usr/bin/python3
 
 import psycopg2
 import sys
