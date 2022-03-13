@@ -7,7 +7,7 @@ docker commands:
  2. run the docker-compose commands,
     docker-compose build
     docker-compose up
- 3. docker cp $container_id:/usr/ansitron/ansitron-core/dist/ "$(pwd)". -->(will copy the distribution files to current directory)
+ 3. > &emsp; docker cp $container_id:/usr/ansitron/ansitron-core/dist/ "$(pwd)". -->(will copy the distribution files to current directory)
     
 # Use the below command to copy the tarball and python wheel distributable file from the images
  3. docker run --rm -v "$(pwd)":/mnt/out arunkarunakaran/ansitron-core /bin/cp -r /usr/ansitron/ansitron-core/dist/ /mnt/out
