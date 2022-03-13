@@ -1,0 +1,13 @@
+# !/usr/bin/python3
+
+HOSTNAME1='localhost'
+PORT1='5432'
+DATABASENAME1='awx'
+USERNAME1='awx'
+PASSWORD1='ansible@2021'
+
+HOSTNAME2=''
+PORT2=''
+DATABASENAME2=''
+USERNAME2=''
+PASSWORD2=''

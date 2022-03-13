@@ -1,0 +1,8 @@
+name=ansitron-core
+author=Arun Karunakaran
+copyright=Copyright 2020 ArunKarunakaran <akarunakaran.ind@gmail.com>
+version=18.60
+date=06-03-2022
+email=akarunakaran.ind@gmail.com
+status=Alpha-Release
+releaseinfo=Initial Release for ansitron-core. Description: This product is used for managing the ansible projects more effectively.

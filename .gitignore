@@ -1,6 +1,5 @@
 .DS_Store
 .python-version
-ansitron/
 ansitron-engine/
 ansitron-venv/
 ansitronapps-venv/
