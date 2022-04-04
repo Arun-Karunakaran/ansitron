@@ -1,6 +1,8 @@
 # ansitron
 Dashboard for monitoring, tracking and operations on periodic basis for usages of devops tools (development In Progress)
 
+**Prerequisite need to have Ansible installed for ansitron to work with Ansible:**</br>
+
 **Use below commands to download the tarball and python wheel distributable file from the container:**</br>
 docker commands:
  1. copy the source code.
