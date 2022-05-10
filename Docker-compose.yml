@@ -9,6 +9,8 @@ services:
       context: ./ansitron-core
       dockerfile: Dockerfile
     image: ansitron-core
+    ports:
+      - "5678"
     volumes:
       - ansitron:/home/ansitron/.local/lib/python3.8/site-packages/ansitron
 
