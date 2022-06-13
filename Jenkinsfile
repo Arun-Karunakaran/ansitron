@@ -1,5 +1,5 @@
 pipeline {
-    agent {label 'ansitron-mac'}
+    agent {label 'ansitron'}
 
     stages {
         stage('Build') {
