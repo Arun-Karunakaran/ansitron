@@ -1,7 +1,8 @@
 # ansitron
-Dashboard for monitoring, tracking and operations on periodic basis for usages of devops tools (development In Progress)
+Stores playbooks and user/system actions in a database and generates operational metrics dashboard that is used for analysing user/system actions on nodes. 
 
-**Prerequisite need to have Ansible installed for ansitron to work with Ansible:**</br>
+
+**Prerequisite need to have Python and Ansible installed for ansitron to work:**</br>
 
 **Use below commands to download the tarball and python wheel distributable file from the container:**</br>
 docker commands:
